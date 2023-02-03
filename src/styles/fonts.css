@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: local("Space Grotesk"),
+    url("../assets/fonts/Space_Grotesk/static/SpaceGrotesk-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: local("Space Mono"),
+    url("../assets/fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Space Grotesk";
+}
+
+p {
+  font-family: "Space Mono";
+}
+
+button {
+  font-family: "Space Grotesk";
+  outline: transparent;
+}

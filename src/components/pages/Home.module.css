@@ -1,0 +1,60 @@
+.fullScreen {
+  width: 100%;
+  height: 100%;
+}
+
+.homeLayout {
+  display: grid;
+  grid-template-rows: auto 65px;
+  padding: var(--space-xl);
+}
+
+.decoration {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-xl);
+  margin: auto;
+  width: min(calc(100% - var(--space-l) * 2), 750px);
+}
+
+@media screen and (max-width: 800px) {
+    .decoration {
+        flex-wrap: wrap;
+    }
+}
+
+.decoration img {
+  max-width: min(100%, 750px);;
+  margin-inline: auto;
+  max-height: 50vh;
+}
+
+.snowball {
+  animation: logo-float 1s ease-in-out infinite;
+}
+
+.snowball > * {
+  animation: logo-spin 3s linear infinite;
+
+}
+
+@keyframes logo-float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

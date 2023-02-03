@@ -1,0 +1,41 @@
+:root {
+  /* primary */
+  --color-background: #8aa6ea;
+  --color-background-light: #aabfff;
+  --color-background-dark: #8aa6ea;
+  --color-text: white;
+  --color-text-light: #bbbbbb;
+
+  /* foreground */
+  --color-foreground: white;
+  --color-foreground-light: rgb(240 240 240);
+
+  /* interaction */
+  --color-interaction-hover: #698ab6;
+  --color-interaction-active: #385479;
+
+  /* spacing */
+  --space-s: 2px;
+  --space-m: 4px;
+  --space-l: 8px;
+  --space-xl: 32px;
+
+  /* shapes */
+  --radius-s: 0px;
+  --radius-m: 4px;
+  --radius-l: 0px;
+
+  /* border */
+  --width-border: 2px;
+  --color-border: rgb(240 240 240);
+  --color-border-top: rgb(240 240 240);
+  --color-border-bottom: rgb(240 240 240);
+  --color-border-left: rgb(240 240 240);
+  --color-border-right: rgb(240 240 240);
+
+  /* animation */
+  --duration-fast: 100ms;
+  --duration-slow: 500ms;
+
+  overflow: hidden;
+}
