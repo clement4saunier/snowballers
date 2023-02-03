@@ -12,12 +12,14 @@ const Home: JSXElement = () => {
     <div class={[styles.fullScreen, styles.homeLayout].join(" ")}>
       <div class={styles.decoration}>
         <div class={styles.snowball}>
-        <img src={blob} alt="snowball blob"/>
+          <img src={blob} alt="snowball blob" />
         </div>
         <div>
-        <h1>Snowballers</h1>
-        <p>Accumulating experience and falling through the blockchain rabbit hole.</p>
-        <button>Join us on discord !</button>
+          <h1>Snowballers</h1>
+          <p>Accumulating experience and falling through the blockchain rabbit hole.</p>
+          <form action="https://discord.gg/UZragcD3" target="_blank">
+            <button>Join our Discord</button>
+          </form>
         </div>
       </div>
       {/* <Footer /> */}
