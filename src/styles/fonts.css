@@ -14,15 +14,16 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+button,
+a {
   font-family: "Space Grotesk";
 }
 
-p {
+p, input {
   font-family: "Space Mono";
 }
 
 button {
-  font-family: "Space Grotesk";
   outline: transparent;
 }

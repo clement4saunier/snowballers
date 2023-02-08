@@ -7,9 +7,9 @@
   background-color: var(--color-background);
   background: radial-gradient(
     at 50% 50%,
-    var(--color-background-dark) 10%,
-    var(--color-background) 30%,
-    var(--color-background-light) 95%
+    var(--color-accent-dark) 10%,
+    var(--color-accent) 30%,
+    var(--color-accent-light) 95%
   );
 }
 

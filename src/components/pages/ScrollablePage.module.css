@@ -1,0 +1,20 @@
+.page {
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.banner {
+}
+
+.content {
+  background-color: var(--color-background);
+  min-height: 100vh;
+  padding-top: var(--space-xl);
+}
+
+.content > * {
+  width: min(calc(100% - var(--space-m) * 2), 800px);
+  margin: auto;
+}

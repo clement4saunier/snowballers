@@ -1,14 +1,18 @@
 :root {
-  /* primary */
-  --color-background: #8aa6ea;
-  --color-background-light: #aabfff;
-  --color-background-dark: #8aa6ea;
-  --color-text: white;
-  --color-text-light: #bbbbbb;
+  /* background */
+  --color-background: #e2ebec;
+  --color-background-light: white;
+
+  --color-accent: #8aa6ea;
+  --color-accent-light: #aabfff;
+  --color-accent-dark: #8aa6ea;
 
   /* foreground */
-  --color-foreground: white;
-  --color-foreground-light: rgb(240 240 240);
+  --color-foreground: #3e5079;
+  --color-foreground-light: #414a63;
+
+  --color-accent-foreground: white;
+  --color-accent-foreground-light: white;
 
   /* interaction */
   --color-interaction-hover: #698ab6;

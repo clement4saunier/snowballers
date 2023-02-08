@@ -5,7 +5,7 @@
 
 .homeLayout {
   display: grid;
-  grid-template-rows: auto 65px;
+  grid-template-rows: auto;
   padding: var(--space-xl);
 }
 

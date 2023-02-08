@@ -37,9 +37,18 @@ footer > *,
   margin-inline: auto;
 }
 
-p {
+.accent p {
+  color: var(--color-accent-foreground-light);
+}
+
+.accent h1, .accent h2, .accent h3, .accent h4, .accent h5 {
+  color: var(--color-accent-foreground);
+}
+
+p, input, textarea {
   color: var(--color-foreground-light);
 }
+
 
 header {
   min-height: calc(100vh - var(--space-xl));
@@ -100,12 +109,33 @@ footer {
   );
 }
 
-button {
+
+input, button, textarea {
+  background-color: var(--color-background-light);
+  outline: none;
   border-radius: var(--radius-m);
   border-color: var(--color-border);
-  border-width: var(--width-border);
+  border-width: 0px;
   border-style: solid;
-  background-color: var(--color-background);
+  margin-inline: var(--space-s);
+  padding: var(--space-l);
+  padding-inline: var(--space-l);
+  height: 2.5em;
+  text-align: start;
+}
+
+textarea {
+  width: 100%;
+  min-height: 10em;
+}
+
+button.accent {
+  background-color: var(--color-accent) !important;
+  color: var(--color-accent-foreground);
+  
+}
+
+button {
   color: var(--color-foreground);
   padding: var(--space-l);
   padding-inline: var(--space-l);
@@ -121,4 +151,8 @@ button:hover {
 button:active {
   background-color: var(--color-background);
   color: var(--color-foreground-light);
+}
+
+button.highlight {
+  background-color: var(--color-accent);
 }
